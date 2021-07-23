@@ -1,0 +1,4 @@
+#Copyright (C) Niklaus F.Schen
+ngx_addon_name=ngx_http_autoquic_module
+HTTP_FILTER_MODULES="$HTTP_FILTER_MODULES ngx_http_autoquic_module"
+NGX_ADDON_SRCS="$NGX_ADDON_SRCS $ngx_addon_dir/ngx_http_autoquic_module.c"
